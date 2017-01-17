@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F0EB791E2E07300024F7F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EB781E2E07300024F7F0 /* main.m */; };
+		36F0EB7C1E2E07300024F7F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EB7B1E2E07300024F7F0 /* AppDelegate.m */; };
+		36F0EB841E2E07300024F7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F0EB831E2E07300024F7F0 /* Assets.xcassets */; };
+		36F0EB871E2E07300024F7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F0EB851E2E07300024F7F0 /* LaunchScreen.storyboard */; };
+		36F0EB921E2E07310024F7F0 /* LZMSideslipControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EB911E2E07310024F7F0 /* LZMSideslipControllerTests.m */; };
+		36F0EB9D1E2E07310024F7F0 /* LZMSideslipControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EB9C1E2E07310024F7F0 /* LZMSideslipControllerUITests.m */; };
+		36F0EBAC1E2E07F00024F7F0 /* LZMSideslipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBAB1E2E07F00024F7F0 /* LZMSideslipViewController.m */; };
+		36F0EBB01E2E08120024F7F0 /* LZMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBAF1E2E08120024F7F0 /* LZMMainViewController.m */; };
+		36F0EBB31E2E08190024F7F0 /* LZMLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBB21E2E08190024F7F0 /* LZMLeftViewController.m */; };
+		36F0EBB61E2E08210024F7F0 /* LZMRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBB51E2E08210024F7F0 /* LZMRightViewController.m */; };
+		36F0EBB91E2E087D0024F7F0 /* UIView+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBB81E2E087D0024F7F0 /* UIView+Rect.m */; };
+		36F0EBBC1E2E14100024F7F0 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36F0EBBB1E2E14100024F7F0 /* demo.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36F0EB8E1E2E07310024F7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36F0EB6C1E2E072E0024F7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36F0EB731E2E072F0024F7F0;
+			remoteInfo = LZMSideslipController;
+		};
+		36F0EB991E2E07310024F7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36F0EB6C1E2E072E0024F7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36F0EB731E2E072F0024F7F0;
+			remoteInfo = LZMSideslipController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36F0EB741E2E07300024F7F0 /* LZMSideslipController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZMSideslipController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F0EB781E2E07300024F7F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36F0EB7A1E2E07300024F7F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36F0EB7B1E2E07300024F7F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36F0EB831E2E07300024F7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36F0EB861E2E07300024F7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36F0EB881E2E07300024F7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F0EB8D1E2E07310024F7F0 /* LZMSideslipControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZMSideslipControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F0EB911E2E07310024F7F0 /* LZMSideslipControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZMSideslipControllerTests.m; sourceTree = "<group>"; };
+		36F0EB931E2E07310024F7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F0EB981E2E07310024F7F0 /* LZMSideslipControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZMSideslipControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F0EB9C1E2E07310024F7F0 /* LZMSideslipControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZMSideslipControllerUITests.m; sourceTree = "<group>"; };
+		36F0EB9E1E2E07310024F7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F0EBAA1E2E07F00024F7F0 /* LZMSideslipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMSideslipViewController.h; sourceTree = "<group>"; };
+		36F0EBAB1E2E07F00024F7F0 /* LZMSideslipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMSideslipViewController.m; sourceTree = "<group>"; };
+		36F0EBAE1E2E08120024F7F0 /* LZMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMMainViewController.h; sourceTree = "<group>"; };
+		36F0EBAF1E2E08120024F7F0 /* LZMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMMainViewController.m; sourceTree = "<group>"; };
+		36F0EBB11E2E08190024F7F0 /* LZMLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMLeftViewController.h; sourceTree = "<group>"; };
+		36F0EBB21E2E08190024F7F0 /* LZMLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMLeftViewController.m; sourceTree = "<group>"; };
+		36F0EBB41E2E08210024F7F0 /* LZMRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMRightViewController.h; sourceTree = "<group>"; };
+		36F0EBB51E2E08210024F7F0 /* LZMRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMRightViewController.m; sourceTree = "<group>"; };
+		36F0EBB71E2E087D0024F7F0 /* UIView+Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rect.h"; sourceTree = "<group>"; };
+		36F0EBB81E2E087D0024F7F0 /* UIView+Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rect.m"; sourceTree = "<group>"; };
+		36F0EBBB1E2E14100024F7F0 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36F0EB711E2E072F0024F7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F0EB8A1E2E07310024F7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F0EB951E2E07310024F7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F0EB6B1E2E072E0024F7F0 = {
+			isa = PBXGroup;
+			children = (
+				36F0EB761E2E07300024F7F0 /* LZMSideslipController */,
+				36F0EB901E2E07310024F7F0 /* LZMSideslipControllerTests */,
+				36F0EB9B1E2E07310024F7F0 /* LZMSideslipControllerUITests */,
+				36F0EB751E2E07300024F7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36F0EB751E2E07300024F7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36F0EB741E2E07300024F7F0 /* LZMSideslipController.app */,
+				36F0EB8D1E2E07310024F7F0 /* LZMSideslipControllerTests.xctest */,
+				36F0EB981E2E07310024F7F0 /* LZMSideslipControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36F0EB761E2E07300024F7F0 /* LZMSideslipController */ = {
+			isa = PBXGroup;
+			children = (
+				36F0EBAD1E2E07FE0024F7F0 /* demo */,
+				36F0EB7A1E2E07300024F7F0 /* AppDelegate.h */,
+				36F0EB7B1E2E07300024F7F0 /* AppDelegate.m */,
+				36F0EBAA1E2E07F00024F7F0 /* LZMSideslipViewController.h */,
+				36F0EBAB1E2E07F00024F7F0 /* LZMSideslipViewController.m */,
+				36F0EBB71E2E087D0024F7F0 /* UIView+Rect.h */,
+				36F0EBB81E2E087D0024F7F0 /* UIView+Rect.m */,
+				36F0EB831E2E07300024F7F0 /* Assets.xcassets */,
+				36F0EB851E2E07300024F7F0 /* LaunchScreen.storyboard */,
+				36F0EB881E2E07300024F7F0 /* Info.plist */,
+				36F0EB771E2E07300024F7F0 /* Supporting Files */,
+			);
+			path = LZMSideslipController;
+			sourceTree = "<group>";
+		};
+		36F0EB771E2E07300024F7F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F0EBBA1E2E09430024F7F0 /* Resource */,
+				36F0EB781E2E07300024F7F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36F0EB901E2E07310024F7F0 /* LZMSideslipControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				36F0EB911E2E07310024F7F0 /* LZMSideslipControllerTests.m */,
+				36F0EB931E2E07310024F7F0 /* Info.plist */,
+			);
+			path = LZMSideslipControllerTests;
+			sourceTree = "<group>";
+		};
+		36F0EB9B1E2E07310024F7F0 /* LZMSideslipControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36F0EB9C1E2E07310024F7F0 /* LZMSideslipControllerUITests.m */,
+				36F0EB9E1E2E07310024F7F0 /* Info.plist */,
+			);
+			path = LZMSideslipControllerUITests;
+			sourceTree = "<group>";
+		};
+		36F0EBAD1E2E07FE0024F7F0 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				36F0EBAE1E2E08120024F7F0 /* LZMMainViewController.h */,
+				36F0EBAF1E2E08120024F7F0 /* LZMMainViewController.m */,
+				36F0EBB11E2E08190024F7F0 /* LZMLeftViewController.h */,
+				36F0EBB21E2E08190024F7F0 /* LZMLeftViewController.m */,
+				36F0EBB41E2E08210024F7F0 /* LZMRightViewController.h */,
+				36F0EBB51E2E08210024F7F0 /* LZMRightViewController.m */,
+			);
+			name = demo;
+			sourceTree = "<group>";
+		};
+		36F0EBBA1E2E09430024F7F0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				36F0EBBB1E2E14100024F7F0 /* demo.gif */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36F0EB731E2E072F0024F7F0 /* LZMSideslipController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F0EBA11E2E07310024F7F0 /* Build configuration list for PBXNativeTarget "LZMSideslipController" */;
+			buildPhases = (
+				36F0EB701E2E072F0024F7F0 /* Sources */,
+				36F0EB711E2E072F0024F7F0 /* Frameworks */,
+				36F0EB721E2E072F0024F7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZMSideslipController;
+			productName = LZMSideslipController;
+			productReference = 36F0EB741E2E07300024F7F0 /* LZMSideslipController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36F0EB8C1E2E07310024F7F0 /* LZMSideslipControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F0EBA41E2E07310024F7F0 /* Build configuration list for PBXNativeTarget "LZMSideslipControllerTests" */;
+			buildPhases = (
+				36F0EB891E2E07310024F7F0 /* Sources */,
+				36F0EB8A1E2E07310024F7F0 /* Frameworks */,
+				36F0EB8B1E2E07310024F7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F0EB8F1E2E07310024F7F0 /* PBXTargetDependency */,
+			);
+			name = LZMSideslipControllerTests;
+			productName = LZMSideslipControllerTests;
+			productReference = 36F0EB8D1E2E07310024F7F0 /* LZMSideslipControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36F0EB971E2E07310024F7F0 /* LZMSideslipControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F0EBA71E2E07310024F7F0 /* Build configuration list for PBXNativeTarget "LZMSideslipControllerUITests" */;
+			buildPhases = (
+				36F0EB941E2E07310024F7F0 /* Sources */,
+				36F0EB951E2E07310024F7F0 /* Frameworks */,
+				36F0EB961E2E07310024F7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F0EB9A1E2E07310024F7F0 /* PBXTargetDependency */,
+			);
+			name = LZMSideslipControllerUITests;
+			productName = LZMSideslipControllerUITests;
+			productReference = 36F0EB981E2E07310024F7F0 /* LZMSideslipControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36F0EB6C1E2E072E0024F7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Janmy;
+				TargetAttributes = {
+					36F0EB731E2E072F0024F7F0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 49HT8788LK;
+						ProvisioningStyle = Automatic;
+					};
+					36F0EB8C1E2E07310024F7F0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 49HT8788LK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36F0EB731E2E072F0024F7F0;
+					};
+					36F0EB971E2E07310024F7F0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 49HT8788LK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36F0EB731E2E072F0024F7F0;
+					};
+				};
+			};
+			buildConfigurationList = 36F0EB6F1E2E072F0024F7F0 /* Build configuration list for PBXProject "LZMSideslipController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36F0EB6B1E2E072E0024F7F0;
+			productRefGroup = 36F0EB751E2E07300024F7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36F0EB731E2E072F0024F7F0 /* LZMSideslipController */,
+				36F0EB8C1E2E07310024F7F0 /* LZMSideslipControllerTests */,
+				36F0EB971E2E07310024F7F0 /* LZMSideslipControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36F0EB721E2E072F0024F7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F0EB871E2E07300024F7F0 /* LaunchScreen.storyboard in Resources */,
+				36F0EBBC1E2E14100024F7F0 /* demo.gif in Resources */,
+				36F0EB841E2E07300024F7F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F0EB8B1E2E07310024F7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F0EB961E2E07310024F7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36F0EB701E2E072F0024F7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F0EBAC1E2E07F00024F7F0 /* LZMSideslipViewController.m in Sources */,
+				36F0EBB31E2E08190024F7F0 /* LZMLeftViewController.m in Sources */,
+				36F0EBB01E2E08120024F7F0 /* LZMMainViewController.m in Sources */,
+				36F0EBB91E2E087D0024F7F0 /* UIView+Rect.m in Sources */,
+				36F0EB7C1E2E07300024F7F0 /* AppDelegate.m in Sources */,
+				36F0EB791E2E07300024F7F0 /* main.m in Sources */,
+				36F0EBB61E2E08210024F7F0 /* LZMRightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F0EB891E2E07310024F7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F0EB921E2E07310024F7F0 /* LZMSideslipControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F0EB941E2E07310024F7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F0EB9D1E2E07310024F7F0 /* LZMSideslipControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36F0EB8F1E2E07310024F7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36F0EB731E2E072F0024F7F0 /* LZMSideslipController */;
+			targetProxy = 36F0EB8E1E2E07310024F7F0 /* PBXContainerItemProxy */;
+		};
+		36F0EB9A1E2E07310024F7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36F0EB731E2E072F0024F7F0 /* LZMSideslipController */;
+			targetProxy = 36F0EB991E2E07310024F7F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36F0EB851E2E07300024F7F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F0EB861E2E07300024F7F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36F0EB9F1E2E07310024F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36F0EBA01E2E07310024F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36F0EBA21E2E07310024F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49HT8788LK;
+				INFOPLIST_FILE = LZMSideslipController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizfocus.LZMSideslipController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36F0EBA31E2E07310024F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49HT8788LK;
+				INFOPLIST_FILE = LZMSideslipController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizfocus.LZMSideslipController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36F0EBA51E2E07310024F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 49HT8788LK;
+				INFOPLIST_FILE = LZMSideslipControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizfocus.LZMSideslipControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZMSideslipController.app/LZMSideslipController";
+			};
+			name = Debug;
+		};
+		36F0EBA61E2E07310024F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 49HT8788LK;
+				INFOPLIST_FILE = LZMSideslipControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizfocus.LZMSideslipControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZMSideslipController.app/LZMSideslipController";
+			};
+			name = Release;
+		};
+		36F0EBA81E2E07310024F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 49HT8788LK;
+				INFOPLIST_FILE = LZMSideslipControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizfocus.LZMSideslipControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZMSideslipController;
+			};
+			name = Debug;
+		};
+		36F0EBA91E2E07310024F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 49HT8788LK;
+				INFOPLIST_FILE = LZMSideslipControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizfocus.LZMSideslipControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZMSideslipController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36F0EB6F1E2E072F0024F7F0 /* Build configuration list for PBXProject "LZMSideslipController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F0EB9F1E2E07310024F7F0 /* Debug */,
+				36F0EBA01E2E07310024F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F0EBA11E2E07310024F7F0 /* Build configuration list for PBXNativeTarget "LZMSideslipController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F0EBA21E2E07310024F7F0 /* Debug */,
+				36F0EBA31E2E07310024F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36F0EBA41E2E07310024F7F0 /* Build configuration list for PBXNativeTarget "LZMSideslipControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F0EBA51E2E07310024F7F0 /* Debug */,
+				36F0EBA61E2E07310024F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36F0EBA71E2E07310024F7F0 /* Build configuration list for PBXNativeTarget "LZMSideslipControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F0EBA81E2E07310024F7F0 /* Debug */,
+				36F0EBA91E2E07310024F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36F0EB6C1E2E072E0024F7F0 /* Project object */;
+}
