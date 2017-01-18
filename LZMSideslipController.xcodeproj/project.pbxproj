@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361A05AF1E2F38B700C972EE /* LZMSideslipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A05AC1E2F38B700C972EE /* LZMSideslipViewController.m */; };
+		361A05B01E2F38B700C972EE /* UIView+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A05AE1E2F38B700C972EE /* UIView+Rect.m */; };
 		36F0EB791E2E07300024F7F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EB781E2E07300024F7F0 /* main.m */; };
 		36F0EB7C1E2E07300024F7F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EB7B1E2E07300024F7F0 /* AppDelegate.m */; };
 		36F0EB841E2E07300024F7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F0EB831E2E07300024F7F0 /* Assets.xcassets */; };
 		36F0EB871E2E07300024F7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F0EB851E2E07300024F7F0 /* LaunchScreen.storyboard */; };
 		36F0EB921E2E07310024F7F0 /* LZMSideslipControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EB911E2E07310024F7F0 /* LZMSideslipControllerTests.m */; };
 		36F0EB9D1E2E07310024F7F0 /* LZMSideslipControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EB9C1E2E07310024F7F0 /* LZMSideslipControllerUITests.m */; };
-		36F0EBAC1E2E07F00024F7F0 /* LZMSideslipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBAB1E2E07F00024F7F0 /* LZMSideslipViewController.m */; };
 		36F0EBB01E2E08120024F7F0 /* LZMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBAF1E2E08120024F7F0 /* LZMMainViewController.m */; };
 		36F0EBB31E2E08190024F7F0 /* LZMLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBB21E2E08190024F7F0 /* LZMLeftViewController.m */; };
 		36F0EBB61E2E08210024F7F0 /* LZMRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBB51E2E08210024F7F0 /* LZMRightViewController.m */; };
-		36F0EBB91E2E087D0024F7F0 /* UIView+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F0EBB81E2E087D0024F7F0 /* UIView+Rect.m */; };
 		36F0EBBC1E2E14100024F7F0 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36F0EBBB1E2E14100024F7F0 /* demo.gif */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361A05AB1E2F38B700C972EE /* LZMSideslipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZMSideslipViewController.h; path = LZMSideslipManager/LZMSideslipViewController.h; sourceTree = "<group>"; };
+		361A05AC1E2F38B700C972EE /* LZMSideslipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZMSideslipViewController.m; path = LZMSideslipManager/LZMSideslipViewController.m; sourceTree = "<group>"; };
+		361A05AD1E2F38B700C972EE /* UIView+Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Rect.h"; path = "LZMSideslipManager/UIView+Rect.h"; sourceTree = "<group>"; };
+		361A05AE1E2F38B700C972EE /* UIView+Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Rect.m"; path = "LZMSideslipManager/UIView+Rect.m"; sourceTree = "<group>"; };
 		36F0EB741E2E07300024F7F0 /* LZMSideslipController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZMSideslipController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F0EB781E2E07300024F7F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36F0EB7A1E2E07300024F7F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,16 +56,12 @@
 		36F0EB981E2E07310024F7F0 /* LZMSideslipControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZMSideslipControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F0EB9C1E2E07310024F7F0 /* LZMSideslipControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZMSideslipControllerUITests.m; sourceTree = "<group>"; };
 		36F0EB9E1E2E07310024F7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36F0EBAA1E2E07F00024F7F0 /* LZMSideslipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMSideslipViewController.h; sourceTree = "<group>"; };
-		36F0EBAB1E2E07F00024F7F0 /* LZMSideslipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMSideslipViewController.m; sourceTree = "<group>"; };
 		36F0EBAE1E2E08120024F7F0 /* LZMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMMainViewController.h; sourceTree = "<group>"; };
 		36F0EBAF1E2E08120024F7F0 /* LZMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMMainViewController.m; sourceTree = "<group>"; };
 		36F0EBB11E2E08190024F7F0 /* LZMLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMLeftViewController.h; sourceTree = "<group>"; };
 		36F0EBB21E2E08190024F7F0 /* LZMLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMLeftViewController.m; sourceTree = "<group>"; };
 		36F0EBB41E2E08210024F7F0 /* LZMRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMRightViewController.h; sourceTree = "<group>"; };
 		36F0EBB51E2E08210024F7F0 /* LZMRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMRightViewController.m; sourceTree = "<group>"; };
-		36F0EBB71E2E087D0024F7F0 /* UIView+Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rect.h"; sourceTree = "<group>"; };
-		36F0EBB81E2E087D0024F7F0 /* UIView+Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rect.m"; sourceTree = "<group>"; };
 		36F0EBBB1E2E14100024F7F0 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,10 +116,10 @@
 				36F0EBAD1E2E07FE0024F7F0 /* demo */,
 				36F0EB7A1E2E07300024F7F0 /* AppDelegate.h */,
 				36F0EB7B1E2E07300024F7F0 /* AppDelegate.m */,
-				36F0EBAA1E2E07F00024F7F0 /* LZMSideslipViewController.h */,
-				36F0EBAB1E2E07F00024F7F0 /* LZMSideslipViewController.m */,
-				36F0EBB71E2E087D0024F7F0 /* UIView+Rect.h */,
-				36F0EBB81E2E087D0024F7F0 /* UIView+Rect.m */,
+				361A05AB1E2F38B700C972EE /* LZMSideslipViewController.h */,
+				361A05AC1E2F38B700C972EE /* LZMSideslipViewController.m */,
+				361A05AD1E2F38B700C972EE /* UIView+Rect.h */,
+				361A05AE1E2F38B700C972EE /* UIView+Rect.m */,
 				36F0EB831E2E07300024F7F0 /* Assets.xcassets */,
 				36F0EB851E2E07300024F7F0 /* LaunchScreen.storyboard */,
 				36F0EB881E2E07300024F7F0 /* Info.plist */,
@@ -312,11 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F0EBAC1E2E07F00024F7F0 /* LZMSideslipViewController.m in Sources */,
 				36F0EBB31E2E08190024F7F0 /* LZMLeftViewController.m in Sources */,
 				36F0EBB01E2E08120024F7F0 /* LZMMainViewController.m in Sources */,
-				36F0EBB91E2E087D0024F7F0 /* UIView+Rect.m in Sources */,
 				36F0EB7C1E2E07300024F7F0 /* AppDelegate.m in Sources */,
+				361A05AF1E2F38B700C972EE /* LZMSideslipViewController.m in Sources */,
+				361A05B01E2F38B700C972EE /* UIView+Rect.m in Sources */,
 				36F0EB791E2E07300024F7F0 /* main.m in Sources */,
 				36F0EBB61E2E08210024F7F0 /* LZMRightViewController.m in Sources */,
 			);
@@ -548,6 +548,7 @@
 				36F0EBA31E2E07310024F7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36F0EBA41E2E07310024F7F0 /* Build configuration list for PBXNativeTarget "LZMSideslipControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +557,7 @@
 				36F0EBA61E2E07310024F7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36F0EBA71E2E07310024F7F0 /* Build configuration list for PBXNativeTarget "LZMSideslipControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +566,7 @@
 				36F0EBA91E2E07310024F7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
