@@ -6,7 +6,11 @@ A simply multi-views manager tool based on Objective-C which supports left-right
 
  ![image](https://github.com/JanmyLo/LZMSideslipManager/blob/master/LZMSideslipController/demo.gif)
 
+cocoapods：
 
+    pod 'LZMSideslipManager', '~> 1.0.0'
+    
+    
 使用方法：
 
     #import "LZMSideslipViewController.h"
@@ -25,7 +29,7 @@ A simply multi-views manager tool based on Objective-C which supports left-right
     slipVC.allowRightSideslip = NO;
     //slipVC.allowLeftSideslip = NO;
     
-注意：左右视图的界面元素绘制不要放在viewDidLoad中，会造成sideslipeController进行侧滑页面缩放操作无效！
+注意：左右视图的界面元素绘制不要放在viewDidLoad中，会造成sideslipController进行侧滑页面缩放操作无效！
 
 
 
