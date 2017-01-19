@@ -6,10 +6,13 @@ A simply multi-views manager tool based on Objective-C which supports left-right
 
  ![image](https://github.com/JanmyLo/LZMSideslipManager/blob/master/LZMSideslipController/demo.gif)
 
-cocoapods：
+Cocoapods：
 
-    pod 'LZMSideslipManager', '~> 1.0.0'
-    
+    pod 'LZMSideslipManager', '~> 1.0.1'
+   
+Github：
+    
+   将LZMSideslipManager文件夹中的文件加入项目即可导入使用。
     
 使用方法：
 
