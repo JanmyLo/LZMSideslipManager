@@ -8,7 +8,7 @@ A simply multi-views manager tool based on Objective-C which supports left-right
 
 Cocoapods：
 
-    pod 'LZMSideslipManager', '~> 1.0.1'
+    pod 'LZMSideslipManager', '~> 1.0.2'
    
 Github：
     
