@@ -12,7 +12,7 @@ Cocoapods：
    
 Github：
     
-    将LZMSideslipManager文件夹中的文件加入项目即可导入使用。
+   将LZMSideslipManager文件夹中的文件加入项目即可导入使用。
     
 使用方法：
 
