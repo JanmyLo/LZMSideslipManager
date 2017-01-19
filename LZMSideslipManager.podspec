@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author             = { "娄忠明-JanmyLo" => "JanmyLo@126.com" }
   s.source       = { :git => "https://github.com/JanmyLo/LZMSideslipManager.git", :tag => "v#{s.version}" }
   s.platform     = :ios, "8.0"
-  s.source_files  = "LZMSideslipController", "LZMSideslipController/LZMSideslipViewController.{h,m}"
+  s.source_files  = "LZMSideslipManager/*.{h,m}"
 
   s.requires_arc = true
 
