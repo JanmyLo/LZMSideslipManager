@@ -90,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361A05F01E30873400C972EE /* LZMSideslipManager */ = {
+			isa = PBXGroup;
+			children = (
+				361A05AB1E2F38B700C972EE /* LZMSideslipViewController.h */,
+				361A05AC1E2F38B700C972EE /* LZMSideslipViewController.m */,
+				361A05AD1E2F38B700C972EE /* UIView+Rect.h */,
+				361A05AE1E2F38B700C972EE /* UIView+Rect.m */,
+			);
+			name = LZMSideslipManager;
+			sourceTree = "<group>";
+		};
 		36F0EB6B1E2E072E0024F7F0 = {
 			isa = PBXGroup;
 			children = (
@@ -113,13 +124,10 @@
 		36F0EB761E2E07300024F7F0 /* LZMSideslipController */ = {
 			isa = PBXGroup;
 			children = (
+				361A05F01E30873400C972EE /* LZMSideslipManager */,
 				36F0EBAD1E2E07FE0024F7F0 /* demo */,
 				36F0EB7A1E2E07300024F7F0 /* AppDelegate.h */,
 				36F0EB7B1E2E07300024F7F0 /* AppDelegate.m */,
-				361A05AB1E2F38B700C972EE /* LZMSideslipViewController.h */,
-				361A05AC1E2F38B700C972EE /* LZMSideslipViewController.m */,
-				361A05AD1E2F38B700C972EE /* UIView+Rect.h */,
-				361A05AE1E2F38B700C972EE /* UIView+Rect.m */,
 				36F0EB831E2E07300024F7F0 /* Assets.xcassets */,
 				36F0EB851E2E07300024F7F0 /* LaunchScreen.storyboard */,
 				36F0EB881E2E07300024F7F0 /* Info.plist */,
